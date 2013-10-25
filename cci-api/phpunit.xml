@@ -15,4 +15,7 @@
             <directory>./app/tests/</directory>
         </testsuite>
     </testsuites>
+    <php>
+    	<server name="HTTP_HOST" value="foobar"/>
+    </php>
 </phpunit>
